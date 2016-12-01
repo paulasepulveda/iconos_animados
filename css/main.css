@@ -27,3 +27,22 @@ h1 {
 	margin-top: 80px;
 	color: #A53AB8;
 }
+
+.engranaje {
+	animation: engrane 1 500ms;
+}
+
+@keyframes 
+@keyframes engrane{
+	0% {
+		opacity: 0;
+		transform: scale(.1) rotate(0deg);
+	}
+	50% {
+		transform: scale(1) rotate(405deg);
+	}
+	100%{
+		transform: scale(1) rotate(405deg);
+		opacity: 1;
+	}
+}
